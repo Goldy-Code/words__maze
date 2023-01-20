@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+
+  width: 1100px;
+  height: 500px;
+  border: 1px solid black;
+
+  overflow: hidden;
+}
+
+.warning {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  text-align: center;
+  background-color: gold;
+
+  pointer-events: none;
+}
+
+.play {
+  margin: 5px;
+}
+
+.theGame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: #8faadc;
+
+  opacity: 0;
+  z-index: -999;
+}
+
+.box {
+  position: absolute;
+  background-color: black;
+}
+
+/*! SHITS  */
+
+.shit1 {
+  width: 15px;
+  height: 150px;
+  top: -1px;
+  left: 70px;
+}
+.shit2 {
+  width: 100px;
+  height: 380px;
+  top: 100px;
+  left: 50px;
+}
+.shit3 {
+  width: 100px;
+  height: 350px;
+  bottom: 0px;
+  left: 180px;
+}
+.shit4 {
+  width: 400px;
+  height: 60px;
+  top: 70px;
+  left: 140px;
+}
+
+.shit5 {
+  width: 200px;
+  height: 20px;
+  top: 225px;
+  left: 300px;
+  transform: rotate(-70deg);
+}
+.shit6 {
+  width: 200px;
+  height: 20px;
+  top: 227px;
+  left: 336px;
+  transform: rotate(90deg);
+}
+.shit7 {
+  width: 200px;
+  height: 20px;
+  top: 225px;
+  left: 372px;
+  transform: rotate(70deg);
+}
+.shit8 {
+  width: 200px;
+  height: 200px;
+  bottom: 30px;
+  left: 336px;
+}
+.shit9 {
+  width: 400px;
+  height: 160px;
+  top: 70px;
+  right: 200px;
+}
+.shit10 {
+  width: 160px;
+  height: 50px;
+  top: 240px;
+  right: 410px;
+}
+.shit11 {
+  width: 160px;
+  height: 50px;
+  top: 240px;
+  right: 410px;
+}
+.shit12 {
+  width: 240px;
+  height: 30px;
+  bottom: 110px;
+  right: 300px;
+  transform: rotate(-70deg);
+}
+.shit13 {
+  width: 240px;
+  height: 30px;
+  bottom: 115px;
+  right: 250px;
+  transform: rotate(90deg);
+}
+.shit14 {
+  width: 240px;
+  height: 30px;
+  bottom: 110px;
+  right: 200px;
+  transform: rotate(70deg);
+}
+.shit15 {
+  width: 140px;
+  height: 80px;
+  bottom: 183px;
+  right: 130px;
+}
+.shit16 {
+  width: 30px;
+  height: 200px;
+  bottom: 60px;
+  right: 240px;
+}
+.shit17 {
+  width: 30px;
+  height: 200px;
+  bottom: 60px;
+  right: 240px;
+}
+.shit18 {
+  width: 30px;
+  height: 240px;
+  bottom: -15px;
+  right: 150px;
+  transform: rotate(-45deg);
+}
+.shit19 {
+  width: 56px;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+}
+.shit20 {
+  width: 50%;
+  height: 56px;
+  top: 0px;
+  right: 0px;
+}
+
+.shit21 {
+  width: 130px;
+  height: 20px;
+  top: 200px;
+  right: 50px;
+}
+.shit22 {
+  width: 130px;
+  height: 20px;
+  top: 130px;
+  right: 50px;
+}
+.shit23 {
+  width: 130px;
+  height: 20px;
+  top: 165px;
+  right: 80px;
+}
+.shit24 {
+  width: 130px;
+  height: 20px;
+  top: 95px;
+  right: 80px;
+}
+.shit25 {
+  width: 20px;
+  height: 55px;
+  top: 10px;
+  left: 500px;
+}
+.shit26 {
+  width: 20px;
+  height: 55px;
+  top: 0px;
+  left: 460px;
+}
+.shit27 {
+  width: 20px;
+  height: 55px;
+  top: 20px;
+  left: 420px;
+}
+.shit28 {
+  width: 20px;
+  height: 55px;
+  top: 0px;
+  left: 385px;
+}
+.shit29 {
+  width: 20px;
+  height: 55px;
+  top: 8px;
+  left: 350px;
+}
+.shit30 {
+  width: 190px;
+  height: 60px;
+  top: 15px;
+  left: 140px;
+}
+
+.mainSHIT {
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  top: 55px;
+  left: 88px;
+}
+
+.screamer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -999;
+}
+
+.mkm {
+  width: 100%;
+  height: 100%;
+}
+
+.gameStart {
+  opacity: 1;
+  z-index: 999;
+}
